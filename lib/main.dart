@@ -1,4 +1,5 @@
-import 'package:covid_nepal/view/home_page.dart';
+import 'package:covid_nepal/view/home.dart';
+//import 'package:covid_nepal/view/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: MyHomePage(),
     );
   }
 }

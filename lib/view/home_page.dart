@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:covid_nepal/widgets/carousel_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -53,6 +54,7 @@ class _HomePageState extends State<HomePage> {
           : SingleChildScrollView(
               child: Column(
                 children: <Widget>[
+                  MyCaro(),
                   //todo: Nepal Latest Update on Covid 19
                   Row(
                     children: <Widget>[
